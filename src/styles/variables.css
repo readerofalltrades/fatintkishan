@@ -1,0 +1,29 @@
+:root {
+  /* Backgrounds */
+  --bg:          #1d2021;
+  --surface:     #282828;
+  --surface-up:  #3c3836;
+
+  /* Text */
+  --text:        #ebdbb2;
+  --heading:     #fbf1c7;
+  --muted:       #928374;
+
+  /* Accents */
+  --yellow:      #fabd2f;
+  --aqua:        #8ec07c;
+  --orange:      #fe8019;
+
+  /* Border */
+  --border:      #504945;
+
+  /* Symbolic — Phase 4 only, don't use these yet */
+  --bd-red:      #f42a41;
+  --bd-green:    #006a4e;
+
+  /* Typography */
+  --font-display: 'Fraunces', serif;
+  --font-body:    'Inter', sans-serif;
+  --font-mono:    'Fira Code', monospace;
+  --font-bangla:  'Noto Sans Bengali', sans-serif;
+}
