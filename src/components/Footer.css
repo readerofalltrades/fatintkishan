@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2.5rem;
+  border-top: 1px solid var(--border);
+  margin-top: auto;
+}
+
+.footer-watermark {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--border);
+  letter-spacing: 0.05em;
+  user-select: none;
+}
+
+.footer-copy {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
