@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './Hero.css'
 
 const ENGLISH_NAME = 'Fatin Tazwar Kishan'
-const BANGLA_NAME = 'ফাতিন তাজওয়ার কিশান'
+const BANGLA_NAME = 'ফাতিন তাজওয়ার কিষাণ'
 const CHARS = 'আইউকখগঘঙচছজঝটডতথদনপফবমযরলশষসহ'
 
 function scramble(target, progress) {
@@ -64,7 +64,6 @@ function Hero() {
           style={{ fontFamily: isBangla ? 'var(--font-bangla)' : 'var(--font-display)' }}
           >
             <span className="hero-name-text">{displayName}</span>
-            <span className='cursor'>_</span>
           </h1>
           <p className="hero-tagline">A Reader of all trades. Curious by Default. Segfaults Occasionally.</p>
           <div className="hero-cta">
