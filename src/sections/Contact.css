@@ -1,0 +1,42 @@
+.contact {
+  padding: 6rem 2.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.contact-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.contact-stamps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.stamp {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text);
+  padding: 0.6rem 1.2rem;
+  border: 1px solid var(--border);
+  position: relative;
+  transition: border-color 0.2s ease, color 0.2s ease;
+
+  /* perforation effect */
+  background-image: radial-gradient(circle, var(--bg) 2px, transparent 2px);
+  background-size: 8px 8px;
+  background-position: -4px -4px;
+  background-repeat: repeat;
+  background-clip: padding-box;
+  box-shadow: 0 0 0 1px var(--border);
+  border: none;
+}
+
+.stamp:hover {
+  color: var(--yellow);
+  box-shadow: 0 0 0 1px var(--yellow);
+}
