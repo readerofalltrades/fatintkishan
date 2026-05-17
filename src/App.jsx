@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Hero from './sections/Hero'
+import About from './sections/About'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <main style={{ minHeight: '100vh' }}>
         <Hero/>
+        <About/>
       </main>
       <Footer />
     </>
