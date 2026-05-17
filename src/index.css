@@ -27,3 +27,32 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.btn {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  padding: 0.65rem 1.5rem;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background-color: var(--yellow);
+  color: var(--bg);
+  border-color: var(--yellow);
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  color: var(--yellow);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--text);
+}
+
+.btn-secondary:hover {
+  border-color: var(--text);
+}

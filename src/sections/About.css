@@ -3,12 +3,28 @@
   border-top: 1px solid var(--border);
 }
 
+.about-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-image-placeholder {
+  width: 260px;
+  aspect-ratio: 3 / 4;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
 .about-content {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  max-width: 680px;
-  margin: 0 auto;
 }
 
 .section-label {
@@ -35,4 +51,41 @@
 
 .about-link:hover {
   opacity: 0.7;
+}
+
+.about-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.about-resume {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  color: var(--aqua);
+  transition: opacity 0.2s ease;
+}
+
+.about-resume:hover {
+  opacity: 0.7;
+}
+
+.about-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 680px) {
+  .about-wrapper {
+    flex-direction: column;
+  }
+
+  .about-image-placeholder {
+    width: 100%;
+    max-width: 260px;
+    align-self: center;
+  }
 }
