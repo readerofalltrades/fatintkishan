@@ -1,14 +1,14 @@
 import './Projects.css'
 import projects from '../data/projects'
 
-function ProjectCard({ title, tagline, stack, slug }) {
+function ProjectCard({ title, tagline, stack, slug, icon: Icon }) {
   return (
     <div className="project-card">
       <div className="project-card-header">
+        <Icon size={22} strokeWidth={1.5} color="var(--yellow)" />
         <h3 className="project-title">{title}</h3>
-        <a href={`/projects/${slug}`} className="project-link">View →</a>
       </div>
-      <p className="project-tagline">{tagline}</p>
+      <p className="project-tagline">{tagline} <a href={`/projects/${slug}`} className="project-link">View →</a></p>
       <div className="project-stack">
         {stack.map((tag) => (
           <span key={tag} className="stack-tag">{tag}</span>
@@ -20,7 +20,6 @@ function ProjectCard({ title, tagline, stack, slug }) {
 
 function Projects() {
   const featured = projects.filter((p) => p.featured)
-
   return (
     <section className="projects-snapshot">
       <div className="projects-content">

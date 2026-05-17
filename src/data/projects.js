@@ -1,3 +1,5 @@
+import { Monitor, Cpu, ScanText } from 'lucide-react'
+
 const projects = [
   {
     title: 'Fan Control GUI',
@@ -5,6 +7,7 @@ const projects = [
     stack: ['Electron', 'Node.js', 'HTML', 'CSS', 'JS'],
     slug: 'fan-control-gui',
     featured: true,
+    icon: Monitor,
   },
   {
     title: 'Line Follower Robot',
@@ -12,6 +15,7 @@ const projects = [
     stack: ['ESP32', 'C++', 'IR Sensors', 'L298N'],
     slug: 'line-follower-robot',
     featured: true,
+    icon: Cpu,
   },
   {
     title: 'En-Bn OCR Tool',
@@ -19,6 +23,7 @@ const projects = [
     stack: ['Python', 'Tesseract', 'Tkinter'],
     slug: 'en-bn-ocr-tool',
     featured: true,
+    icon: ScanText,
   },
 ]
 
