@@ -19,3 +19,9 @@
   font-size: 0.75rem;
   color: var(--muted);
 }
+
+.footer-built {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--border);
+}
