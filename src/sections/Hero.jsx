@@ -67,8 +67,8 @@ function Hero() {
           </h1>
           <p className="hero-tagline">A Reader of all trades. Curious by Default. Segfaults Occasionally.</p>
           <div className="hero-cta">
-            <a href="/projects" className="btn btn-primary">See my work</a>
-            <a href="/blog" className="btn btn-secondary">Read my blog</a>
+            <a href="#projects" className="btn btn-primary">See my work</a>
+            <a href="#blog" className="btn btn-secondary">Read my blog</a>
           </div>
         </div>
         <div className="hero-image-placeholder">

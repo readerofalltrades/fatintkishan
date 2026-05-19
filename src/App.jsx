@@ -8,16 +8,17 @@ import Skills from './sections/Skills'
 import BlogTeaser from './sections/BlogTeaser'
 import Contact from './sections/Contact'
 import NotFound from './pages/NotFound'
+import FadeIn from './components/FadeIn'
 
 function HomePage() {
   return (
     <>
       <Hero />
-      <About />
-      <Projects />
-      <Skills />
-      <BlogTeaser />
-      <Contact />
+      <FadeIn><About /></FadeIn>
+      <FadeIn delay={0.05}><Projects /></FadeIn>
+      <FadeIn delay={0.05}><Skills /></FadeIn>
+      <FadeIn delay={0.05}><BlogTeaser /></FadeIn>
+      <FadeIn delay={0.05}><Contact /></FadeIn>
     </>
   )
 }

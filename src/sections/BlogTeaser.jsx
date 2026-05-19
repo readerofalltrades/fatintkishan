@@ -15,7 +15,7 @@ const placeholderPosts = [
 
 function BlogTeaser() {
   return (
-    <section className="blog-teaser">
+    <section className="blog-teaser" id='blog'>
       <div className="blog-content">
         <h2 className="section-label">From the Blog</h2>
         <div className="blog-posts">

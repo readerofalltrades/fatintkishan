@@ -21,7 +21,7 @@ function ProjectCard({ title, tagline, stack, slug, icon: Icon }) {
 function Projects() {
   const featured = projects.filter((p) => p.featured)
   return (
-    <section className="projects-snapshot">
+    <section className="projects-snapshot" id='projects'>
       <div className="projects-content">
         <h2 className="section-label">Featured Projects</h2>
         <div className="projects-grid">
