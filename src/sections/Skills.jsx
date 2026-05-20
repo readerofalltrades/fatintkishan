@@ -3,12 +3,22 @@ import './Skills.css'
 import skills from '../data/skills'
 
 function SkillCard({ name, topics, icon: Icon }) {
-  const [hovered, setHovered] = useState(false)
+  const [active, setActive] = useState(false)
+
+  function handleMouseEnter() { setActive(true) }
+  function handleMouseLeave() { setActive(false) }
+  function handleClick() {
+    if (window.matchMedia('(hover: none)').matches) {
+      setActive(prev => !prev)
+    }
+  }
+
   return (
     <div
-      className={`skill-card ${hovered ? 'skill-card--hovered' : ''}`}
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
+      className={`skill-card ${active ? 'skill-card--hovered' : ''}`}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      onClick={handleClick}
     >
       <div className="skill-card-front">
         <Icon size={22} strokeWidth={1.5} color="var(--yellow)" />

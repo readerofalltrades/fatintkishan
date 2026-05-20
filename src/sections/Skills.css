@@ -122,3 +122,37 @@
   border: 1px solid var(--border);
   padding: 0.15rem 0.4rem;
 }
+
+@media (max-width: 860px) {
+  .skills-snapshot {
+    padding: 4rem 1.5rem;
+  }
+
+  .skills-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-snapshot {
+    padding: 3.5rem 1.25rem;
+  }
+
+  .skills-stats {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+}
+
+@media (hover: none) {
+  .skill-card {
+    cursor: pointer;
+  }
+}

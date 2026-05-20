@@ -25,3 +25,17 @@
   font-size: 0.75rem;
   color: var(--border);
 }
+
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1.5rem 1.25rem;
+    text-align: center;
+  }
+
+  .footer-watermark {
+    display: none;
+  }
+}

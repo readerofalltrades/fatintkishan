@@ -43,3 +43,19 @@
   color: var(--yellow);
   box-shadow: 0 0 0 1px var(--yellow);
 }
+
+@media (max-width: 860px) {
+  .contact {
+    padding: 4rem 1.5rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .contact {
+    padding: 3.5rem 1.25rem;
+  }
+
+  .contact-stamps {
+    gap: 0.75rem;
+  }
+}

@@ -89,3 +89,25 @@
     align-self: center;
   }
 }
+
+@media (max-width: 860px) {
+  .about-snapshot {
+    padding: 4rem 1.5rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .about-snapshot {
+    padding: 3.5rem 1.25rem;
+  }
+
+  .about-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-actions .btn {
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -35,6 +35,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  min-width: 0;
 }
 
 .hero-name {
@@ -43,13 +44,11 @@
   font-weight: 300;
   color: var(--heading);
   line-height: 1.1;
-  min-width: 600px; /* prevents layout shift on name swap */
   cursor: default;
 }
 
 .hero-name-text {
   display: inline-block;
-  min-width: 580px;
 }
 
 .cursor {
@@ -90,4 +89,40 @@
   color: var(--muted);
   font-size: 0.85rem;
   font-family: var(--font-mono);
+}
+
+@media (max-width: 860px) {
+  .hero-content {
+    gap: 2.5rem;
+  }
+
+  .hero-image-placeholder {
+    width: 240px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 5rem 1.25rem 2.5rem;
+    align-items: flex-start;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .hero-image-placeholder {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 4;
+    max-width: 280px;
+    align-self: center;
+    order: -1;
+  }
+
+  .hero-tagline {
+    font-size: 0.95rem;
+  }
 }
