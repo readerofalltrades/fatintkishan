@@ -27,7 +27,9 @@
   padding: 0.6rem 1.2rem;
   border: 1px solid var(--border);
   position: relative;
-  transition: border-color 0.2s ease, color 0.2s ease;
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease;
 
   /* perforation effect */
   background-image: radial-gradient(circle, var(--bg) 2px, transparent 2px);
@@ -42,6 +44,11 @@
 .stamp:hover {
   color: var(--yellow);
   box-shadow: 0 0 0 1px var(--yellow);
+}
+
+.stamp:focus-visible {
+  outline: 2px solid var(--yellow);
+  outline-offset: 3px;
 }
 
 @media (max-width: 860px) {

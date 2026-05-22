@@ -27,37 +27,10 @@
   gap: 1.5rem;
 }
 
-.section-label {
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
-  color: var(--yellow);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
 .about-body {
   font-size: 1.05rem;
   color: var(--text);
   line-height: 1.8;
-}
-
-.about-link {
-  font-family: var(--font-mono);
-  font-size: 0.9rem;
-  color: var(--yellow);
-  transition: opacity 0.2s ease;
-  align-self: flex-start;
-}
-
-.about-link:hover {
-  opacity: 0.7;
-}
-
-.about-actions {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1.5rem;
 }
 
 .about-resume {
@@ -74,6 +47,7 @@
 .about-actions {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 1rem;
   margin-top: 0.5rem;
 }

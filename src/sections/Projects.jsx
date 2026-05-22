@@ -1,5 +1,5 @@
-import './Projects.css'
-import projects from '../data/projects'
+import "./Projects.css";
+import projects from "../data/projects";
 
 function ProjectCard({ title, tagline, stack, slug, icon: Icon }) {
   return (
@@ -8,20 +8,27 @@ function ProjectCard({ title, tagline, stack, slug, icon: Icon }) {
         <Icon size={22} strokeWidth={1.5} color="var(--yellow)" />
         <h3 className="project-title">{title}</h3>
       </div>
-      <p className="project-tagline">{tagline} <a href={`/projects/${slug}`} className="project-link">View →</a></p>
+      <p className="project-tagline">
+        {tagline}{" "}
+        <a href={`/projects/${slug}`} className="project-link">
+          View →
+        </a>
+      </p>
       <div className="project-stack">
         {stack.map((tag) => (
-          <span key={tag} className="stack-tag">{tag}</span>
+          <span key={tag} className="stack-tag">
+            {tag}
+          </span>
         ))}
       </div>
     </div>
-  )
+  );
 }
 
 function Projects() {
-  const featured = projects.filter((p) => p.featured)
+  const featured = projects.filter((p) => p.featured);
   return (
-    <section className="projects-snapshot" id='projects'>
+    <section className="projects-snapshot" id="projects">
       <div className="projects-content">
         <h2 className="section-label">Featured Projects</h2>
         <div className="projects-grid">
@@ -29,10 +36,12 @@ function Projects() {
             <ProjectCard key={project.slug} {...project} />
           ))}
         </div>
-        <a href="/projects" className="about-link">See all projects →</a>
+        <a href="/projects" className="section-link">
+          See all projects →
+        </a>
       </div>
     </section>
-  )
+  );
 }
 
-export default Projects
+export default Projects;

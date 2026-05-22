@@ -1,4 +1,4 @@
-import './NotFound.css'
+import "./NotFound.css";
 
 function NotFound() {
   return (
@@ -7,10 +7,12 @@ function NotFound() {
       <div className="notfound__divider" />
       <div className="notfound__content">
         <p className="notfound__message">This page doesn't exist.</p>
-        <a href="/" className="notfound__home">← Back home</a>
+        <a href="/" className="notfound__home">
+          ← Back home
+        </a>
       </div>
     </div>
-  )
+  );
 }
 
-export default NotFound
+export default NotFound;
