@@ -1,6 +1,8 @@
-@import './styles/variables.css';
+@import "./styles/variables.css";
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -16,6 +18,47 @@ body {
   color: var(--text);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+}
+
+/* Notebook margin lines — sits behind navbar and footer via z-index */
+.margin-lines {
+  position: fixed;
+  inset: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 85%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.margin-lines::before,
+.margin-lines::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+}
+
+/* Left double rule */
+.margin-lines::before {
+  left: 3.5rem;
+  border-left: 1px solid color-mix(in srgb, var(--border) 40%, transparent);
+  box-shadow: -4px 0 0 0 color-mix(in srgb, var(--border) 40%, transparent);
+}
+
+/* Right double rule */
+.margin-lines::after {
+  right: 3.5rem;
+  border-right: 1px solid color-mix(in srgb, var(--border) 40%, transparent);
+  box-shadow: 4px 0 0 0 color-mix(in srgb, var(--border) 40%, transparent);
+}
+
+@media (max-width: 1600px) {
+  .margin-lines {
+    display: none;
+  }
 }
 
 a {

@@ -1,10 +1,13 @@
 .footer {
+  position: relative;
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 2.5rem;
   border-top: 1px solid var(--border);
   margin-top: auto;
+  background-color: var(--bg);
 }
 
 .footer-watermark {

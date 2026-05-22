@@ -1,4 +1,4 @@
-import './Footer.css'
+import "./Footer.css";
 
 function Footer() {
   return (
@@ -7,7 +7,7 @@ function Footer() {
       <span className="footer-copy">© 2026 Fatin Tazwar Kishan</span>
       <span className="footer-built">React + Vite + Cloudflare</span>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
