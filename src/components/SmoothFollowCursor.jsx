@@ -117,6 +117,8 @@ export default function SmoothFollowCursor({
     };
   }, [dotSpeed, borderSpeed]);
 
+  if (window.matchMedia("(hover: none)").matches) return null;
+
   return (
     <div
       style={{

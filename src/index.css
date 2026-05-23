@@ -1,9 +1,5 @@
 @import "./styles/variables.css";
 
-* {
-  cursor: none !important;
-}
-
 *,
 *::before,
 *::after {
@@ -83,6 +79,12 @@ body {
   right: 3.5rem;
   border-right: 1px solid color-mix(in srgb, var(--border) 40%, transparent);
   box-shadow: 4px 0 0 0 color-mix(in srgb, var(--border) 40%, transparent);
+}
+
+@media (hover: hover) {
+  * {
+    cursor: none !important;
+  }
 }
 
 @media (max-width: 1600px) {

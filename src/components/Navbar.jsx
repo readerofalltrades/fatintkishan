@@ -9,7 +9,16 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <a href="/" className="navbar-logo">
+      <a
+        href="/"
+        className="navbar-logo"
+        onClick={(e) => {
+          if (window.location.pathname === "/") {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }
+        }}
+      >
         <span className="cursor">_</span>readerofalltrades
       </a>
 
