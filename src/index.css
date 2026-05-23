@@ -1,5 +1,9 @@
 @import "./styles/variables.css";
 
+* {
+  cursor: none !important;
+}
+
 *,
 *::before,
 *::after {
