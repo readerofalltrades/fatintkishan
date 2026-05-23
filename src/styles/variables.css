@@ -1,29 +1,45 @@
 :root {
   /* Backgrounds */
-  --bg:          #1d2021;
-  --surface:     #282828;
-  --surface-up:  #3c3836;
+  --bg: #1d2021;
+  --surface: #282828;
+  --surface-up: #3c3836;
 
   /* Text */
-  --text:        #ebdbb2;
-  --heading:     #fbf1c7;
-  --muted:       #928374;
+  --text: #ebdbb2;
+  --heading: #fbf1c7;
+  --muted: #928374;
 
   /* Accents */
-  --yellow:      #fabd2f;
-  --aqua:        #8ec07c;
-  --orange:      #fe8019;
+  --yellow: #fabd2f;
+  --aqua: #8ec07c;
+  --orange: #fe8019;
 
   /* Border */
-  --border:      #504945;
+  --border: #504945;
 
   /* Symbolic — Phase 4 only, don't use these yet */
-  --bd-red:      #f42a41;
-  --bd-green:    #006a4e;
+  --bd-red: #f42a41;
+  --bd-green: #006a4e;
 
   /* Typography */
-  --font-display: 'Fraunces', serif;
-  --font-body:    'Inter', sans-serif;
-  --font-mono:    'Fira Code', monospace;
-  --font-bangla:  'Noto Sans Bengali', sans-serif;
+  --font-display: "Fraunces", serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "Fira Code", monospace;
+  --font-bangla: "Noto Sans Bengali", sans-serif;
+}
+
+[data-theme="light"] {
+  --bg: #fbf1c7;
+  --surface: #f2e5bc;
+  --surface-up: #ebdbb2;
+
+  --text: #3c3836;
+  --heading: #282828;
+  --muted: #7c6f64;
+
+  --yellow: #b57614;
+  --aqua: #427b58;
+  --orange: #af3a03;
+
+  --border: #d5c4a1;
 }

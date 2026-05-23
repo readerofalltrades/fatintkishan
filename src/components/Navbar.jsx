@@ -1,8 +1,11 @@
 import { useState } from "react";
+import { Sun, Moon } from "lucide-react";
+import { useTheme } from "../hooks/useTheme";
 import "./Navbar.css";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { theme, toggle } = useTheme();
 
   return (
     <nav className="navbar">
@@ -36,6 +39,19 @@ function Navbar() {
           <a href="/blog" onClick={() => setMenuOpen(false)}>
             Blog
           </a>
+        </li>
+        <li>
+          <button
+            className="navbar-theme-toggle"
+            onClick={toggle}
+            aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+          >
+            {theme === "dark" ? (
+              <Sun size={24} strokeWidth={1.5} />
+            ) : (
+              <Moon size={24} strokeWidth={1.5} />
+            )}
+          </button>
         </li>
       </ul>
     </nav>

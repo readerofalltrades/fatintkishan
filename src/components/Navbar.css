@@ -22,6 +22,7 @@
 .navbar-links {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 2rem;
 }
 
@@ -71,6 +72,26 @@
 }
 
 .navbar-links a:focus-visible {
+  outline: 2px solid var(--yellow);
+  outline-offset: 3px;
+}
+
+.navbar-theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  transition: color 0.2s ease;
+}
+
+.navbar-theme-toggle:hover {
+  color: var(--yellow);
+}
+
+.navbar-theme-toggle:focus-visible {
   outline: 2px solid var(--yellow);
   outline-offset: 3px;
 }
