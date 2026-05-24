@@ -78,3 +78,19 @@
   margin-top: 1rem;
   margin-bottom: 0.25rem;
 }
+
+.project-entry {
+  margin-bottom: 2.5rem;
+}
+
+.project-entry-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-bottom: 0.25rem;
+}
+
+.project-entry-header svg {
+  position: relative;
+  top: 2px;
+}
