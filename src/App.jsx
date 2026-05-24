@@ -10,6 +10,7 @@ import Contact from "./sections/Contact";
 import NotFound from "./pages/NotFound";
 import FadeIn from "./components/FadeIn";
 import SmoothFollowCursor from "./components/SmoothFollowCursor";
+import AboutPage from "./pages/About";
 function HomePage() {
   return (
     <>
@@ -53,6 +54,7 @@ function App() {
       <main style={{ minHeight: "100vh" }}>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
