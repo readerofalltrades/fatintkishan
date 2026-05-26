@@ -22,7 +22,7 @@ body {
 
 .section-label {
   font-family: var(--font-mono);
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: var(--yellow);
   letter-spacing: 0.1em;
   text-transform: uppercase;

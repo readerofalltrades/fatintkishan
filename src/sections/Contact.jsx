@@ -24,7 +24,7 @@ const socials = [
 
 function Contact() {
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <div className="contact-content">
         <h2 className="section-label">Contact</h2>
         <div className="contact-stamps">
