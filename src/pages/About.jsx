@@ -10,18 +10,24 @@ function AboutPage() {
       <hr />
 
       <p>
-        I'm a Computer Science and Engineering student at BRAC University,
-        Dhaka. Born in Jhenaidah, raised across cities, currently based in
-        Dhaka. I build things — websites, robots, tools, games, 3D models — not
-        to collect skills, but because I can't stand waiting on someone else to
-        build what's in my head. My alias is <code>readerofalltrades</code>. The
-        reading part is not incidental.
+        I was born in Jhenaidah and grew up across different cities before
+        eventually settling in Dhaka. Moving between environments and spending a
+        lot of time with books shaped how I think, making me naturally curious,
+        analytical, and quick to adapt to unfamiliar situations.
       </p>
       <p>
-        My interests span systems programming, competitive programming,
-        robotics, graphics, and cinematography. I run a riced Arch-based Linux
-        setup, maintain a home lab on a Raspberry Pi 5, and occasionally win pop
-        quizzes at semiconductor seminars.
+        I study Computer Science and Engineering at BRAC University, but most of
+        my learning happens through building. I usually start from problems I
+        want to solve and then figure out whatever tools are needed along the
+        way. This turns into websites, Linux scripts, small tools, robots, game
+        prototypes, or design work for events.
+      </p>
+      <p>
+        Lately I have been focused on systems, Linux customization, automation,
+        networking, and low-level computing while also working on creative
+        projects like 3D modeling, graphics, and photography. I do not separate
+        technical and creative work, since both come from the same habit of
+        building things to understand them better.
       </p>
 
       <hr />
@@ -30,27 +36,37 @@ function AboutPage() {
 
       <h3>BRAC University</h3>
       <p className="page-meta">
-        BSc in Computer Science and Engineering — May 2024 to June 2028
-        (expected)
+        BSc in Computer Science and Engineering — May 2024 to Present
       </p>
       <p>
-        Currently in my fourth semester with 63 credits completed out of 136.
-        Coursework spans structured programming, object-oriented programming,
-        discrete mathematics, data structures, algorithms, circuits and
-        electronics, electronic devices and circuits, data communications etc.
+        Currently in my 7th semester, focusing on Operating Systems, and
+        Artificial Intelligence while continuing to strengthen my foundations in
+        core computer science.
       </p>
+      <p>Relevant coursework completed so far:</p>
+      <ul>
+        <li>Discrete Mathematics</li>
+        <li>Differential and Integral Calculus</li>
+        <li>Statistics and Probability</li>
+        <li>Data Structures and Algorithms</li>
+        <li>Linear Algebra and Fourier Transformation</li>
+        <li>Complex Variables and Laplace Transformation</li>
+      </ul>
 
       <h3>Dhaka City College, Dhaka</h3>
       <p className="page-meta">
         Higher Secondary Certificate, Science — 2021 to 2023
       </p>
-      <p>Graduated with GPA 5.0.</p>
+      <p>Graduated from Dhaka City College, Dhaka in 2021 with a GPA of 5.0.</p>
 
       <h3>Government Laboratory High School, Dhaka</h3>
       <p className="page-meta">
-        Secondary School Certificate, Science — 2019 to 2021
+        Secondary School Certificate, Science — 2013 to 2021
       </p>
-      <p>Graduated with GPA 5.0.</p>
+      <p>
+        Graduated from Government Laboratory High School, Dhaka in 2021 with a
+        GPA of 5.0.
+      </p>
 
       <hr />
 
@@ -66,40 +82,52 @@ function AboutPage() {
       <h3>RS Cultural Program — BRAC University Residential Semester</h3>
       <p className="page-meta">April 2025</p>
       <p>
-        Designed all banners and visual collateral for the residential semester
-        cultural program using Adobe Illustrator. Also built a 3D model of the
-        stage in Blender used for pre-event planning and visualization.
+        Designed banners and visual materials for the BRACU Residential Semester
+        also known as TARC's cultural program using Adobe Illustrator.
+        Additionally, created a 3D stage model in Blender to support pre-event
+        planning and visualization.
       </p>
 
       <h3>Bangladesh Biology Olympiad</h3>
       <p className="page-meta">2018 — 2020</p>
       <p>
-        Competed at the regional level across three consecutive years — Second
-        Runners Up in 2018, Regional Champion in 2019, First Runners Up in 2020.
+        Competed at the regional level for three consecutive years, placing
+        Second Runners Up (Junior Division) in 2018, Champion (Junior Division)
+        in 2019, and First Runners Up (Secondary Division) in 2020.
       </p>
 
       <hr />
 
       <h2>Interests</h2>
       <p>
-        Chess — rapid rating 651, still climbing. Photography, with a particular
-        interest in warm scenes with good composition. Cinematography and video
-        editing in DaVinci Resolve. Reading — broadly and compulsively, hence
-        the alias. Speed typing, currently averaging 90 WPM. Linux ricing —
-        running a fully custom CachyOS setup with no desktop environment, tiled
-        window management, and documented dotfiles.
+        My interests usually split between building and observing. I like
+        working with systems, Linux setups, and small tools that help me
+        understand how things work under the hood. I also spend time on creative
+        work like 3D modeling, graphics, and photography, which gives a
+        different kind of problem solving.
+      </p>
+      <p>
+        Outside of that, I read, play sports like football and badminton, and
+        stay curious about anything that does not fit neatly into a category.
       </p>
 
       <hr />
 
       <h2>Goals for 2026</h2>
       <p>
-        Launch the complete portfolio website. Complete the first draft of an
-        individual research paper. Begin identifying a topic and supervisor for
-        the final year thesis. Start reading consistently like before. Work
-        toward full body flexibility and the stamina to play 90 minutes of
-        football again.
+        In 2026, I want to focus on consistency more than intensity. That means
+        building regularly, thinking clearly, and improving across both
+        technical and personal areas.
       </p>
+      <ul>
+        <li>Launch the complete portfolio website</li>
+        <li>Complete the first draft of an individual research paper</li>
+        <li>
+          Begin identifying a topic and supervisor for the final year thesis
+        </li>
+        <li>Start reading consistently like before</li>
+        <li>Work toward full body flexibility and the stamina</li>
+      </ul>
 
       {/* Figure placeholders — uncomment when images are ready
       <Figure src="/setup.jpg" alt="My desk setup" caption="Fig. 1 — CachyOS, tiled." />

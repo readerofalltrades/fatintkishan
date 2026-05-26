@@ -8,11 +8,12 @@ function About() {
         <div className="about-content">
           <h2 className="section-label">About</h2>
           <p className="about-body">
-            I'm Fatin Tazwar Kishan — a CSE student at BRAC University. On a
-            journey of seeking knowledge and solving problems — picking up
-            whatever tools I need along the way: web dev, Linux, game dev,
-            hardware, 3D. Not to collect skills, but to never have to wait on
-            anyone else to build what's in my head.
+            I’m Fatin Tazwar Kishan, a Computer Science and Engineering student
+            at BRAC University. I learn by building, usually starting from
+            problems I want to solve, then picking up whatever tools are
+            necessary to figure them out. I prefer understanding things well
+            enough to build them myself rather than waiting on the idea to take
+            shape elsewhere.
           </p>
           <div className="about-actions">
             <a href="/about" className="btn btn-primary">

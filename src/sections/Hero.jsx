@@ -85,7 +85,8 @@ function Hero() {
             <span className="hero-name-cursor">_</span>
           </h1>
           <p className="hero-tagline">
-            A Reader of all trades. Curious by Default. Segfaults Occasionally.
+            A Reader of All Trades. Curious by default. Known to segfault
+            occasionally.
           </p>
           <div className="hero-cta">
             <a href="#projects" className="btn btn-primary">

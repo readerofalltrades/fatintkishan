@@ -1,17 +1,14 @@
 import "./BlogTeaser.css";
 
-const placeholderPosts = [
-  {
-    title: "Why I switched to Arch Linux as a CS student",
-    date: "2026-01-01",
-    tag: "systems",
-  },
-  {
-    title: "My first Codeforces contest — what I learned",
-    date: "2026-01-15",
-    tag: "competitive-programming",
-  },
-];
+const posts = import.meta.glob("../posts/*.mdx", { eager: true });
+
+const blogPosts = Object.entries(posts)
+  .map(([path, mod]) => ({
+    slug: path.replace("../posts/", "").replace(".mdx", ""),
+    ...mod.frontmatter,
+  }))
+  .sort((a, b) => new Date(b.date) - new Date(a.date))
+  .slice(0, 3);
 
 function BlogTeaser() {
   return (
@@ -19,17 +16,18 @@ function BlogTeaser() {
       <div className="blog-content">
         <h2 className="section-label">From the Blog</h2>
         <div className="blog-posts">
-          {placeholderPosts.map((post) => (
-            <div key={post.title} className="blog-post-card">
+          {blogPosts.map((post) => (
+            <div key={post.slug} className="blog-post-card">
               <div className="blog-post-meta">
                 <span className="blog-post-tag">{post.tag}</span>
                 <span className="blog-post-date">{post.date}</span>
               </div>
-              <h3 className="blog-post-title">{post.title}</h3>
+              <h3 className="blog-post-title">
+                <a href={`/blog/${post.slug}`}>{post.title}</a>
+              </h3>
             </div>
           ))}
         </div>
-        {/* TODO: wire to real MDX posts in Phase 3 */}
         <a href="/blog" className="section-link">
           Read the blog →
         </a>

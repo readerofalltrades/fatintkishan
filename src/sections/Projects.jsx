@@ -9,9 +9,9 @@ function ProjectCard({ title, tagline, stack, slug, icon: Icon }) {
         <h3 className="project-title">{title}</h3>
       </div>
       <p className="project-tagline">
-        {tagline}{" "}
+        {tagline} {/* Uncomment after individual project page is ready*/}
         <a href={`/projects/${slug}`} className="project-link">
-          View →
+          {/* View →*/}
         </a>
       </p>
       <div className="project-stack">

@@ -7,7 +7,6 @@ import {
   Pen,
   Server,
   Terminal,
-  FlaskConical,
 } from "lucide-react";
 
 const allProjects = [
@@ -17,7 +16,8 @@ const allProjects = [
     category: "Website",
     icon: Globe,
     tools: ["React", "Vite", "CSS", "Cloudflare Pages"],
-    description: "Current iteration of the personal portfolio — ongoing.",
+    description:
+      "Next iteration of my portfolio website built with React, Vite, and Cloudflare Pages, focusing on performance and long-term maintainability.",
   },
   {
     title: "Victus16 Fan Control GUI",
@@ -26,7 +26,7 @@ const allProjects = [
     icon: AppWindow,
     tools: ["Electron", "Bash", "Node.js"],
     description:
-      "Wrapped a fan control bash script into a desktop GUI for the HP Victus 16.",
+      "Converted a Linux fan control bash script into an Electron-based GUI application for easier hardware control and usability.",
   },
   {
     title: "CachyOS Custom Setup",
@@ -35,7 +35,7 @@ const allProjects = [
     icon: Terminal,
     tools: ["CachyOS", "Hyprland", "GNU Stow"],
     description:
-      "Fully custom Arch-based Linux setup with no desktop environment, tiled window management, and documented dotfiles.",
+      "A fully customized Linux setup focused on workflow optimization, system tuning, and documentation of a personalized Arch-based environment.",
   },
   {
     title: "Pi-hole Home Lab",
@@ -44,7 +44,7 @@ const allProjects = [
     icon: Server,
     tools: ["Raspberry Pi 5", "Pi-hole"],
     description:
-      "Network-wide ad and telemetry blocking across the home network.",
+      "Set up a Raspberry Pi 5-based Pi-hole system for network-wide ad and telemetry blocking, exploring DNS and self-hosted infrastructure.",
   },
   {
     title: "Pathfinder — Line Follower Robot",
@@ -53,7 +53,7 @@ const allProjects = [
     icon: Cpu,
     tools: ["ESP32", "C++", "IR Sensors", "L298N", "PID Control"],
     description:
-      "Autonomous robot that follows a black line using PID control.",
+      "Built a line-following robot using ESP32, focusing on embedded control, sensor logic, and real-world hardware behavior.",
   },
   {
     title: "En-Bn OCR Tool",
@@ -62,7 +62,7 @@ const allProjects = [
     icon: AppWindow,
     tools: ["Python", "Tesseract", "Tkinter"],
     description:
-      "Desktop tool that extracts text from images in both English and Bangla.",
+      "A Python-based OCR utility for extracting and processing English, & Bangla-readable text from images.",
   },
   {
     title: "Cultural Program Stage Model",
@@ -71,7 +71,7 @@ const allProjects = [
     icon: Box,
     tools: ["Blender"],
     description:
-      "3D model of the RS Cultural Program stage used for pre-event planning and visualization.",
+      "A small platformer game built in Godot to understand game loops, physics, and level design through practical implementation.",
   },
   {
     title: "RS Cultural Program — Banner & Stage Design",
@@ -80,7 +80,7 @@ const allProjects = [
     icon: Pen,
     tools: ["Adobe Illustrator"],
     description:
-      "Designed all banners and visual collateral for BRAC University's residential semester cultural program.",
+      "Designed banners and visual materials for a BRAC University Residential Semester cultural program using Adobe Illustrator.",
   },
   {
     title: "Mario Clone",
@@ -88,7 +88,8 @@ const allProjects = [
     category: "Game",
     icon: Gamepad2,
     tools: ["Godot"],
-    description: "A side-scrolling Mario-style platformer.",
+    description:
+      "A small platformer game built in Godot to understand game loops, physics, and level design through practical implementation.",
   },
   {
     title: "fatintkishan v2.0",
@@ -97,7 +98,7 @@ const allProjects = [
     icon: Globe,
     tools: ["React", "Vite", "HTML", "CSS", "Node.js", "Vercel"],
     description:
-      "Second React-based iteration of the portfolio, hosted on Vercel.",
+      "A full redesign of my portfolio using React, Vite, Node.js, and modern deployment workflows, focusing on component-based structure and scalability.",
   },
   {
     title: "Donut",
@@ -105,7 +106,8 @@ const allProjects = [
     category: "3D Model",
     icon: Box,
     tools: ["Blender"],
-    description: "The classic Blender beginner donut. First 3D model.",
+    description:
+      "A Blender 3D modeling exercise recreating the classic donut scene, used to learn modeling fundamentals, lighting, and rendering workflows.",
   },
   {
     title: "fatintkishan v1.0",
@@ -113,7 +115,8 @@ const allProjects = [
     category: "Website",
     icon: Globe,
     tools: ["HTML", "CSS"],
-    description: "First redesign of the personal site.",
+    description:
+      "Rebuilt my personal website with improved structure using HTML and CSS, focusing on cleaner layout and better presentation.",
   },
   {
     title: "fatintkishan v0.0",
@@ -121,15 +124,17 @@ const allProjects = [
     category: "Website",
     icon: Globe,
     tools: ["HTML", "CSS"],
-    description: "The very first personal website.",
+    description:
+      "Built and presented a science project for the SCL 6th National Science Festival, focusing on early experimentation with structured problem solving and demonstration.My first personal website built using only HTML and CSS, mainly to understand basic web structure and how pages are organized.",
   },
   {
     title: "School Science Fair Project",
     date: "March 2019",
     category: "Science",
-    icon: FlaskConical,
-    tools: [],
-    description: "Participated in the SCL 6th National Science Festival.",
+    icon: Cpu,
+    tools: ["Arduino UNO"],
+    description:
+      "Built and presented an android-controlled water vehicle project for the SCL 6th National Science Festival, focusing on cleaning junk and debris from water surfaces.",
   },
 ];
 
