@@ -94,18 +94,16 @@
   margin-top: 0.5rem;
 }
 
-.hero-image-placeholder {
-  width: 320px;
-  height: 400px;
+.hero-image-wrapper {
   flex-shrink: 0;
-  border: 1px dashed var(--border);
-  background-color: var(--surface);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--muted);
-  font-size: 0.85rem;
-  font-family: var(--font-mono);
+  width: 380px;
+  align-self: center;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 @media (max-width: 1060px) {
@@ -140,10 +138,8 @@
     gap: 2rem;
   }
 
-  .hero-image-placeholder {
+  .hero-image-wrapper {
     width: 100%;
-    height: auto;
-    aspect-ratio: 3 / 4;
     max-width: 280px;
     align-self: center;
     order: -1;

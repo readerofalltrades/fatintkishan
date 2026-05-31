@@ -97,9 +97,17 @@ function Hero() {
             </a>
           </div>
         </div>
-        <div className="hero-image-placeholder">
-          <span>photo coming soon</span>
-        </div>
+        <picture className="hero-image-wrapper stamp-frame">
+          <source
+            media="(max-width: 600px)"
+            srcSet="/hero-image_straight-forward.webp"
+          />
+          <img
+            src="/hero-image_candid.webp"
+            alt="Fatin Tazwar Kishan"
+            className="hero-image"
+          />
+        </picture>
       </div>
     </section>
   );
