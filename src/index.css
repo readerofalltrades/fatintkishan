@@ -128,7 +128,7 @@ img {
 
 @media (hover: none) {
   * {
-    cursor: none !important;
+    cursor: auto !important;
   }
 }
 
