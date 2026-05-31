@@ -16,3 +16,7 @@
 .blogpost-content p {
   margin-bottom: 1.2rem;
 }
+
+.blogpost-meta .page-meta {
+  margin-bottom: 0;
+}

@@ -27,6 +27,16 @@
   transition: background-color 0.2s ease;
 }
 
+a.blog-post-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+a.blog-post-card:hover .blog-post-title {
+  color: var(--yellow);
+}
+
 .blog-post-card:hover {
   background-color: var(--surface-up);
 }

@@ -17,15 +17,17 @@ function BlogTeaser() {
         <h2 className="section-label">From the Blog</h2>
         <div className="blog-posts">
           {blogPosts.map((post) => (
-            <div key={post.slug} className="blog-post-card">
+            <a
+              key={post.slug}
+              className="blog-post-card"
+              href={`/blog/${post.slug}`}
+            >
               <div className="blog-post-meta">
                 <span className="blog-post-tag">{post.tag}</span>
                 <span className="blog-post-date">{post.date}</span>
               </div>
-              <h3 className="blog-post-title">
-                <a href={`/blog/${post.slug}`}>{post.title}</a>
-              </h3>
-            </div>
+              <h3 className="blog-post-title">{post.title}</h3>
+            </a>
           ))}
         </div>
         <a href="/blog" className="section-link">

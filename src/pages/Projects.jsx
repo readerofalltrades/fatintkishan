@@ -8,6 +8,7 @@ function ProjectEntry({
   tools,
   description,
   icon: Icon,
+  github,
 }) {
   return (
     <div className="project-entry">
@@ -21,6 +22,16 @@ function ProjectEntry({
         {tools.length > 0 ? ` — ${tools.join(", ")}` : ""}
       </p>
       <p>{description}</p>
+      {github && (
+        <a
+          href={github}
+          target="_blank"
+          rel="noreferrer"
+          className="section-link"
+        >
+          Visit Repository
+        </a>
+      )}
     </div>
   );
 }

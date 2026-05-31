@@ -18,6 +18,7 @@ const allProjects = [
     tools: ["React", "Vite", "CSS", "Cloudflare Pages"],
     description:
       "Next iteration of my portfolio website built with React, Vite, and Cloudflare Pages, focusing on performance and long-term maintainability.",
+    github: "https://github.com/readerofalltrades/fatintkishan",
   },
   {
     title: "Victus16 Fan Control GUI",
@@ -36,6 +37,7 @@ const allProjects = [
     tools: ["CachyOS", "Hyprland", "GNU Stow"],
     description:
       "A fully customized Linux setup focused on workflow optimization, system tuning, and documentation of a personalized Arch-based environment.",
+    github: "https://github.com/readerofalltrades/dotfiles",
   },
   {
     title: "Pi-hole Home Lab",
@@ -54,6 +56,7 @@ const allProjects = [
     tools: ["ESP32", "C++", "IR Sensors", "L298N", "PID Control"],
     description:
       "Built a line-following robot using ESP32, focusing on embedded control, sensor logic, and real-world hardware behavior.",
+    github: "https://github.com/readerofalltrades/pathfinder-lfr-esp32",
   },
   {
     title: "En-Bn OCR Tool",
@@ -63,6 +66,7 @@ const allProjects = [
     tools: ["Python", "Tesseract", "Tkinter"],
     description:
       "A Python-based OCR utility for extracting and processing English, & Bangla-readable text from images.",
+    github: "https://github.com/readerofalltrades/en-bn-ocr-tool",
   },
   {
     title: "Cultural Program Stage Model",

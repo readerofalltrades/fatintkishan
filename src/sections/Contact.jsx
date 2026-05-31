@@ -7,12 +7,12 @@ const socials = [
   { label: "Email", href: "mailto:fatintkishan@gmail.com", icon: Mail },
   {
     label: "GitHub",
-    href: "https://github.com/readeroaltrades",
+    href: "https://github.com/readerofalltrades",
     icon: FaGithub,
   },
   {
     label: "Codeforces",
-    href: "https://codeforces.com/profile/readeroaltrades",
+    href: "https://codeforces.com/profile/readerofalltrades",
     icon: SiCodeforces,
   },
   {

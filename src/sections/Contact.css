@@ -30,20 +30,11 @@
   transition:
     border-color 0.2s ease,
     color 0.2s ease;
-
-  /* perforation effect */
-  background-image: radial-gradient(circle, var(--bg) 2px, transparent 2px);
-  background-size: 8px 8px;
-  background-position: -4px -4px;
-  background-repeat: repeat;
-  background-clip: padding-box;
-  box-shadow: 0 0 0 1px var(--border);
-  border: none;
 }
 
 .stamp:hover {
   color: var(--yellow);
-  box-shadow: 0 0 0 1px var(--yellow);
+  border-color: var(--yellow);
 }
 
 .stamp:focus-visible {

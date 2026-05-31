@@ -83,7 +83,7 @@ function Skills() {
           <h2 className="section-label">Skills</h2>
           <div className="skills-stats">
             <span className="lc-rating">
-              LC:{" "}
+              LeetCode:{" "}
               <span className="lc-easy">
                 {lcStats === null
                   ? "..."
@@ -109,7 +109,7 @@ function Skills() {
               </span>
             </span>
             <span className="cf-rating">
-              CF:{" "}
+              CodeForces:{" "}
               <span className="cf-value">
                 {cfRating !== null ? cfRating : "..."}
               </span>
