@@ -22,6 +22,14 @@
   margin-bottom: 1rem;
 }
 
+.page-layout h3 {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  color: var(--yellow);
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+
 .page-layout p {
   font-size: 1rem;
   color: var(--text);
@@ -69,14 +77,6 @@
   font-size: 0.8rem;
   color: var(--muted);
   margin-bottom: 0.5rem;
-}
-
-.page-layout h3 {
-  font-family: var(--font-mono);
-  font-size: 0.95rem;
-  color: var(--yellow);
-  margin-top: 1rem;
-  margin-bottom: 0.25rem;
 }
 
 .project-entry {

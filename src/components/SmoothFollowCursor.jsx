@@ -14,6 +14,9 @@ export default function SmoothFollowCursor({
   dotOpacity = 1,
   borderWidth = 1,
 }) {
+  const [isTouch, setIsTouch] = useState(
+    () => window.matchMedia("(hover: none)").matches,
+  );
   const mousePosition = useRef({ x: 0, y: 0 });
   const dotPosition = useRef({ x: 0, y: 0 });
   const borderDotPosition = useRef({ x: 0, y: 0 });
@@ -117,7 +120,14 @@ export default function SmoothFollowCursor({
     };
   }, [dotSpeed, borderSpeed]);
 
-  if (window.matchMedia("(hover: none)").matches) return null;
+  useEffect(() => {
+    const mq = window.matchMedia("(hover: none)");
+    const handler = (e) => setIsTouch(e.matches);
+    mq.addEventListener("change", handler);
+    return () => mq.removeEventListener("change", handler);
+  }, []);
+
+  if (isTouch) return null;
 
   return (
     <div
