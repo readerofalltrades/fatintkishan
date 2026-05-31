@@ -91,7 +91,7 @@
   padding: 0.2rem 0.5rem;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1024px) {
   .projects-snapshot {
     padding: 4rem 1.5rem;
   }
@@ -101,7 +101,7 @@
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 480px) {
   .projects-snapshot {
     padding: 3.5rem 1.25rem;
   }

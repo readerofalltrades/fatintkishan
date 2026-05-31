@@ -76,10 +76,12 @@
   outline-offset: 3px;
 }
 
+.navbar-theme-item {
+  display: flex;
+  align-items: center;
+}
+
 .navbar-theme-toggle {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
   background: none;
   border: none;
   cursor: pointer;
@@ -99,7 +101,15 @@
   outline-offset: 3px;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 769px) {
+  .navbar-theme-item {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
   .navbar {
     padding: 1rem 1.25rem;
   }

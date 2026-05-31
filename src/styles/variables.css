@@ -1,4 +1,12 @@
 :root {
+  /*
+    Breakpoints — do not use as variables (CSS limitation)
+    --bp-wide:      1600px  margin lines hide
+    --bp-tablet:    1024px  layout compression
+    --bp-mobile:    768px   structural shift, hamburger nav
+    --bp-mobile-sm: 480px   fine-tuning
+  */
+
   /* Backgrounds */
   --bg: #1d2021;
   --surface: #282828;

@@ -23,18 +23,6 @@ function Navbar() {
       </a>
 
       <button
-        className="navbar-theme-toggle"
-        onClick={toggle}
-        aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
-      >
-        {theme === "dark" ? (
-          <Sun size={24} strokeWidth={1.5} />
-        ) : (
-          <Moon size={24} strokeWidth={1.5} />
-        )}
-      </button>
-
-      <button
         className={`navbar-hamburger ${menuOpen ? "navbar-hamburger--open" : ""}`}
         onClick={() => setMenuOpen(!menuOpen)}
         aria-label="Toggle menu"
@@ -46,6 +34,19 @@ function Navbar() {
       </button>
 
       <ul className={`navbar-links ${menuOpen ? "navbar-links--open" : ""}`}>
+        <li className="navbar-theme-item">
+          <button
+            className="navbar-theme-toggle"
+            onClick={toggle}
+            aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+          >
+            {theme === "dark" ? (
+              <Sun size={24} strokeWidth={1.5} />
+            ) : (
+              <Moon size={24} strokeWidth={1.5} />
+            )}
+          </button>
+        </li>
         <li>
           <a href="/about" onClick={() => setMenuOpen(false)}>
             About
