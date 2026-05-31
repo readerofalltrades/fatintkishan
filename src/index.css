@@ -126,6 +126,12 @@ img {
   }
 }
 
+@media (hover: none) {
+  * {
+    cursor: none !important;
+  }
+}
+
 @media (max-width: 1600px) {
   .margin-lines {
     display: none;
