@@ -15,16 +15,16 @@ export default function SmoothFollowCursor({
   borderWidth = 1,
 }) {
   const [isTouch, setIsTouch] = useState(
-    () => window.matchMedia("(hover: none)").matches,
+    () => window.matchMedia("(pointer: coarse)").matches,
   );
   useEffect(() => {
     console.log(
-      "hover:none matches:",
-      window.matchMedia("(hover: none)").matches,
+      "pointer:coarse matches:",
+      window.matchMedia("(pointer: coarse)").matches,
     );
     console.log(
-      "hover:hover matches:",
-      window.matchMedia("(hover: hover)").matches,
+      "pointer:fine matches:",
+      window.matchMedia("(pointer: fine)").matches,
     );
   }, []);
   const mousePosition = useRef({ x: 0, y: 0 });
@@ -131,7 +131,7 @@ export default function SmoothFollowCursor({
   }, [dotSpeed, borderSpeed]);
 
   useEffect(() => {
-    const mq = window.matchMedia("(hover: none)");
+    const mq = window.matchMedia("(pointer: coarse)");
     const handler = (e) => setIsTouch(e.matches);
     mq.addEventListener("change", handler);
     return () => mq.removeEventListener("change", handler);

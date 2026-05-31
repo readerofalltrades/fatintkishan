@@ -120,13 +120,13 @@ img {
   border-color: var(--text);
 }
 
-@media (hover: hover) {
+@media (pointer: fine) {
   * {
     cursor: none !important;
   }
 }
 
-@media (hover: none) {
+@media (pointer: coarse) {
   * {
     cursor: auto !important;
   }
