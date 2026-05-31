@@ -75,7 +75,7 @@ const allProjects = [
     icon: Box,
     tools: ["Blender"],
     description:
-      "A small platformer game built in Godot to understand game loops, physics, and level design through practical implementation.",
+      "Designed the entire stage and peripherals BRAC University Residential Semester cultural program using Blender",
   },
   {
     title: "RS Cultural Program — Banner & Stage Design",
@@ -129,7 +129,7 @@ const allProjects = [
     icon: Globe,
     tools: ["HTML", "CSS"],
     description:
-      "Built and presented a science project for the SCL 6th National Science Festival, focusing on early experimentation with structured problem solving and demonstration.My first personal website built using only HTML and CSS, mainly to understand basic web structure and how pages are organized.",
+      "My first personal website built using only HTML and CSS, mainly to understand basic web structure and how pages are organized.",
   },
   {
     title: "School Science Fair Project",

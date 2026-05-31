@@ -146,7 +146,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 560px) {
   .skills-snapshot {
     padding: 3.5rem 1.25rem;
   }

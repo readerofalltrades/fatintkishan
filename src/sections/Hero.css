@@ -116,11 +116,6 @@
   .hero-content {
     gap: 2.5rem;
   }
-
-  .hero-image-placeholder {
-    width: 240px;
-    height: 300px;
-  }
 }
 
 @media (max-width: 600px) {

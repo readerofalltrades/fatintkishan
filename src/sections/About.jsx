@@ -4,7 +4,8 @@ function About() {
   return (
     <section className="about-snapshot">
       <div className="about-wrapper">
-        <div className="about-image-placeholder" aria-hidden="true" />
+        {/* About image will be done in v4.0*/}
+        {/* <div className="about-image-placeholder" aria-hidden="true" />*/}
         <div className="about-content">
           <h2 className="section-label">About</h2>
           <p className="about-body">

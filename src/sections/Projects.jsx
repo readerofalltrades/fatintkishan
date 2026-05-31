@@ -1,19 +1,21 @@
 import "./Projects.css";
 import projects from "../data/projects";
 
-function ProjectCard({ title, tagline, stack, slug, icon: Icon }) {
+function ProjectCard({ title, tagline, stack, icon: Icon }) {
   return (
     <div className="project-card">
       <div className="project-card-header">
         <Icon size={22} strokeWidth={1.5} color="var(--yellow)" />
         <h3 className="project-title">{title}</h3>
       </div>
+
       <p className="project-tagline">
         {tagline} {/* Uncomment after individual project page is ready*/}
-        <a href={`/projects/${slug}`} className="project-link">
-          {/* View →*/}
-        </a>
+        {/* <a href={`/projects/${slug}`} className="project-link">
+          {" "}
+        </a>*/}
       </p>
+
       <div className="project-stack">
         {stack.map((tag) => (
           <span key={tag} className="stack-tag">
