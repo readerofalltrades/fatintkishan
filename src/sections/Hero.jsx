@@ -82,7 +82,7 @@ function Hero() {
             }}
           >
             <span className="hero-name-text">{displayName}</span>
-            <span className="hero-name-cursor">_</span>
+            {/* <span className="hero-name-cursor">_</span>*/}
           </h1>
           <p className="hero-tagline">
             A Reader of All Trades. Curious by default. Known to segfault

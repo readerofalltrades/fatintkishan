@@ -17,16 +17,6 @@ export default function SmoothFollowCursor({
   const [isTouch, setIsTouch] = useState(
     () => window.matchMedia("(pointer: coarse)").matches,
   );
-  useEffect(() => {
-    console.log(
-      "pointer:coarse matches:",
-      window.matchMedia("(pointer: coarse)").matches,
-    );
-    console.log(
-      "pointer:fine matches:",
-      window.matchMedia("(pointer: fine)").matches,
-    );
-  }, []);
   const mousePosition = useRef({ x: 0, y: 0 });
   const dotPosition = useRef({ x: 0, y: 0 });
   const borderDotPosition = useRef({ x: 0, y: 0 });

@@ -12,14 +12,14 @@
 
 .footer-watermark {
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: var(--text-caption);
   color: var(--border);
   letter-spacing: 0.05em;
   user-select: none;
 }
 
 .footer-copy {
-  font-size: 0.75rem;
+  font-size: var(--text-caption);
   color: var(--muted);
 }
 
@@ -30,7 +30,7 @@
 
 .footer-built {
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: var(--text-caption);
   color: var(--border);
   text-align: right;
 }

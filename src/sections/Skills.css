@@ -19,7 +19,7 @@
 
 .cf-rating {
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: var(--text-label);
   color: var(--muted);
 }
 
@@ -35,7 +35,7 @@
 
 .lc-rating {
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: var(--text-label);
   color: var(--muted);
 }
 
@@ -74,7 +74,7 @@
 
 .skill-count {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: var(--text-caption);
   color: var(--muted);
 }
 
@@ -95,7 +95,7 @@
 
 .skill-name {
   font-family: var(--font-mono);
-  font-size: 0.95rem;
+  font-size: var(--text-label);
   color: var(--heading);
 }
 
@@ -123,7 +123,7 @@
 
 .skill-topic {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: var(--text-caption);
   color: var(--muted);
   border: 1px solid var(--border);
   padding: 0.15rem 0.4rem;

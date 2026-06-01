@@ -22,7 +22,7 @@ body {
 
 .section-label {
   font-family: var(--font-mono);
-  font-size: 1rem;
+  font-size: var(--text-body);
   color: var(--yellow);
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -30,7 +30,7 @@ body {
 
 .section-link {
   font-family: var(--font-mono);
-  font-size: 0.9rem;
+  font-size: var(--text-body);
   color: var(--yellow);
   transition: opacity 0.2s ease;
   align-self: flex-start;
@@ -93,7 +93,7 @@ img {
 
 .btn {
   font-family: var(--font-body);
-  font-size: 0.9rem;
+  font-size: var(--text-body);
   padding: 0.65rem 1.5rem;
   border: 1px solid var(--border);
   cursor: pointer;

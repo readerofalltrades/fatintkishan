@@ -11,7 +11,7 @@
 
 .blog-entry-tag {
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: var(--text-caption);
   color: var(--aqua);
   border: 1px solid var(--aqua);
   padding: 0.15rem 0.5rem;

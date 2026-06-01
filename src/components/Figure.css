@@ -15,7 +15,7 @@
 
 .figure-caption {
   font-family: var(--font-mono);
-  font-size: 0.78rem;
+  font-size: var(--text-caption);
   color: var(--muted);
   text-align: center;
   line-height: 1.6;

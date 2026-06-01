@@ -28,7 +28,7 @@
 }
 
 .about-body {
-  font-size: 1.05rem;
+  font-size: var(--text-lead);
   color: var(--text);
   line-height: 1.8;
 }

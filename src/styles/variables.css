@@ -34,6 +34,16 @@
   --font-body: "Inter", sans-serif;
   --font-mono: "Fira Code", monospace;
   --font-bangla: "Noto Sans Bengali", sans-serif;
+
+  /* Typography scale */
+  --text-caption: 0.75rem;
+  --text-label: 0.875rem;
+  --text-body: 1rem;
+  --text-lead: 1.125rem;
+  --text-title: 1.375rem;
+  --text-heading: clamp(1.5rem, 3vw, 2rem);
+  --text-display: clamp(2rem, 5vw, 3rem);
+  --text-hero: clamp(2.5rem, 6vw, 5rem);
 }
 
 [data-theme="light"] {

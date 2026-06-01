@@ -14,7 +14,7 @@
 
 .navbar-logo {
   font-family: var(--font-mono);
-  font-size: 0.95rem;
+  font-size: var(--text-label);
   color: var(--yellow);
   letter-spacing: 0.02em;
 }
@@ -28,7 +28,7 @@
 
 .navbar-links a {
   font-family: var(--font-body);
-  font-size: 0.9rem;
+  font-size: var(--text-label);
   color: var(--muted);
   transition: color 0.2s ease;
 }
@@ -140,7 +140,7 @@
   }
 
   .navbar-links a {
-    font-size: 1.2rem;
+    font-size: var(--text-lead);
     color: var(--text);
   }
 }
