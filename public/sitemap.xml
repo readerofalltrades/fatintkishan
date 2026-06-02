@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://fatintkishan.com/</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://fatintkishan.com/about</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://fatintkishan.com/projects</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://fatintkishan.com/blog</loc>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Add one <url> block per blog post below -->
+  <url>
+    <loc>https://fatintkishan.com/blog/decentralized-ai</loc>
+    <priority>0.5</priority>
+    <changefreq>never</changefreq>
+  </url>
+
+  <url>
+    <loc>https://fatintkishan.com/blog/i-met-chatgpt</loc>
+    <priority>0.5</priority>
+    <changefreq>never</changefreq>
+  </url>
+
+  <url>
+    <loc>https://fatintkishan.com/blog/microsoft-recall</loc>
+    <priority>0.5</priority>
+    <changefreq>never</changefreq>
+  </url>
+
+</urlset>
