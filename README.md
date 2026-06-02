@@ -50,7 +50,7 @@ public/           # Static assets — images, favicon, resume, SVGs
 |---|---|
 | v0.0 | local archive |
 | v1.0 | local archive |
-| v2.0 | https://fatintkishan.vercel.app |
+| v2.0 | archive branch |
 | v3.0 (current) | https://fatintkishan.pages.dev |
 
 ---
